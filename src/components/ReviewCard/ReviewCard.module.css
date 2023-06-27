@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  flex: 1 0 0;
+  gap: 32px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100px;
+  height: 100px;
+
+  background: var(--gray-5);
+  border-radius: 8px;
+}
+
+.photo {
+  width: 32px;
+  height: 32px;
+  color: var(--gray-3);
+}
+
+.content {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}

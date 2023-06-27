@@ -1,0 +1,41 @@
+.info {
+  display: flex;
+  gap: 32px;
+}
+
+.poster {
+  min-width: 400px;
+  min-height: 500px;
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

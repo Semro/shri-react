@@ -1,0 +1,49 @@
+.root {
+  display: flex;
+  gap: 24px;
+}
+
+.root:hover {
+  background: #f8f8f8;
+}
+
+.poster {
+  min-width: 100px;
+  min-height: 120px;
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.description strong {
+  font-size: 20px;
+  color: var(--text-primary, #1b1f23);
+}
+
+.description p {
+  font-size: 16px;
+  font-style: italic;
+  color: var(--text-primary);
+}
+
+.actions {
+  display: flex;
+  gap: 24px;
+}
+
+.closeSvg {
+  width: 20px;
+  height: 20px;
+  color: var(--gray);
+}

@@ -1,0 +1,5 @@
+.root {
+  padding: 24px;
+  background: var(--background-primary);
+  border-radius: 8px;
+}

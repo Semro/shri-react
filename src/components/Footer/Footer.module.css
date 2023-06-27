@@ -1,0 +1,15 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 24px 32px;
+
+  background: var(--gray);
+}
+
+.root span {
+  font-size: 20px;
+  color: var(--white);
+}

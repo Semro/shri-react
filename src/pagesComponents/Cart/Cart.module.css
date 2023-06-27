@@ -1,0 +1,11 @@
+.ticketCards {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+}

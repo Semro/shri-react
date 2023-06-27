@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  min-height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  padding: 24px 32px 32px;
+
+  background: var(--background-secondary);
+}
